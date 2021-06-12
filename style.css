@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.resize {
+ background-color: #FFFF00;
+ height: 6rem;
+ text-align: center;
+}
+.resize-para {
+    font-size: 1.5rem;
+   padding-top: 2rem;
+    font-weight: bold;
+}
+.nabvar-section {
+    background-color: #1ABC9C;
+    height: 15rem;
+    text-align: center;
+    padding-top: 5rem;
+    color: #fff;
+}
+.website-para {
+    padding-top: 1rem;
+    font-size: 1.1rem;
+}
+span {
+    font-weight: 900;
+}
+/* Start main nav  */
+.main-nav {
+  background-color: #333333;
+  height: 3rem;
+}
+.main-nav .main-navbar ul  {
+   display: flex;
+   list-style-type: none;
+   padding-top: 1rem;
+}
+li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+/* Start Main-section  */
+.main-section {
+    display: flex;
+}
+.side-bar {
+    background-color: #F1F1F1;
+    width: 40%;
+    height: 50rem;
+}
+.side-img {
+    height: 250px;
+    width: 100%;
+    padding: 1rem 0.5rem;
+}
+h2 {
+    padding: 1rem 0.5rem;
+    font-weight: bold;  
+}
+h5 {
+   padding: 1rem 0.5rem;
+    font-weight: bold;  
+}
+p {
+    padding: 2rem 0.5rem;
+    font-weight: bold;   
+}
+.lorem-para { 
+    padding: 1rem 0.5rem;
+    font-weight: bold; 
+    padding: 1rem 0.5rem;  
+}
+.img-bar {
+   height: 5rem;
+   padding: 1rem 0.5rem;
+}
+.side-slim-img {
+    height: 5rem;
+    width: 100%;
+   padding: 0.4rem 0.1rem;
+}
+/* start main-bar  */
+.main-bar {
+   background-color: #fff;
+   width: 100%;
+   padding: 1rem 0.5rem;
+}
+.main-img {
+    height: 250px;
+    width: 100%;
+    padding: 0.4rem 0.1rem;
+}
+.main-bar h2 {
+    padding: 1rem 0.5rem;
+}
+.main-bar h5 {
+    padding: 1rem 0.5rem;
+}
+/* start main-head  */
+.head-img {
+    height: 250px;
+    width: 100%;
+    padding: 1rem 0.5rem;
+}
+/* start footer  */
+.footer-section {
+height: 5rem;
+background-color: #DDDDDD;
+text-align: center;
+}
+.footer-section h1 {
+    padding-top: 1.5rem;
+    font-weight: bold;
+}
+/* Start media.. */
+@media screen and (max-width: 700px) {
+    .main-section, .side-bar {   
+      flex-direction: column;
+    }
+    .side-bar {
+        width: 100%;
+    }
+    .main-nav .main-navbar ul {
+        display: grid;
+        text-align: center;
+    }
+    .main-nav {
+        background-color: #333333;
+        height: 15rem;
+      }
+       a {
+        color: #fff;
+        text-decoration: none;
+    }
+    li {
+        padding: 15px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .main-section, .side-bar {   
+      flex-direction: column;
+    }
+    .side-bar {
+        width: 100%;
+    }
+    
+}
